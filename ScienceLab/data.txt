@@ -1,0 +1,31 @@
+{
+    "__class__": "PartsMatchResponse",
+    "msec": 19,
+    "request": {
+        "__class__": "PartsMatchRequest",
+        "exact_only": false,
+        "queries": [
+            {
+                "__class__": "PartsMatchQuery",
+                "brand": null,
+                "limit": 3,
+                "mpn": "MMSD-20-26-L-40.00-S-K-M",
+                "mpn_or_sku": null,
+                "q": "",
+                "reference": null,
+                "seller": null,
+                "sku": null,
+                "start": 0
+            }
+        ]
+    },
+    "results": [
+        {
+            "__class__": "PartsMatchResult",
+            "error": null,
+            "hits": 0,
+            "items": [],
+            "reference": null
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="bodies/|behaviors/|renderers/|docs/js/|geometries/|integrators/" kind="src" path="physicsjs-0.6.0"/>
+	<classpathentry kind="src" path="physicsjs-0.6.0/behaviors"/>
+	<classpathentry kind="src" path="physicsjs-0.6.0/bodies"/>
+	<classpathentry kind="src" path="physicsjs-0.6.0/docs/js"/>
+	<classpathentry kind="src" path="physicsjs-0.6.0/geometries"/>
+	<classpathentry kind="src" path="physicsjs-0.6.0/integrators"/>
+	<classpathentry kind="src" path="physicsjs-0.6.0/renderers"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

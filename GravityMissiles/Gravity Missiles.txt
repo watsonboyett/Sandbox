@@ -1,0 +1,20 @@
+Gravity Missiles:
+
+[Game-play]
+P1 shoots a (slow moving) missile at P2's base.
+P2 responds by shooting a missile either at P1's first missile or at P1's base.
+P1 responds by shooting a missile at P2's missile (or P1's base)
+(this is pretty much Tank Wars, but with static launch sites)
+
+[Controls]
+Trajectory is controlled by drawing a vector from the launchpad into 'space'
+Velocity is controlled by the magnitude of the drawn vector
+While drawing the vector, trajectory paths are computed for opponent's (and friendly?) missiles
+Intercept locations are also computed for given launch velocity (e.g. point here for the given velocity to hit oppenent's missile)
+
+[Mechanics]
+Missiles have gravitational effects (i.e. they affect the trajectories of all other missiles, even if they don't intercept)
+	Heavier missiles have more gravitational effects (just like gravity!)
+Limited amount of fuel (higher velocities require more fuel reserves)
+Limited number of missiles at one time (can't just bombard each other)
+
